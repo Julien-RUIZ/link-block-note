@@ -1,0 +1,82 @@
+
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+body{
+	display: flex;
+justify-content: flex-start; 
+background-color: rgb(197, 190, 190);
+}
+
+#menu{
+	/*border: 1px solid black;  bloc Menu de gauche */
+	padding:5px;
+	width: 165px;
+	margin: 5px;
+	background-color: rgb(193, 214, 214);
+	border-style: outset;
+	border-width: 1px 2px 2px 1px;
+	border-color: black black black black;
+}
+	
+
+#partie-1, #partie-2, #partie-3, #partie-4, #partie-5{
+	border: solid black; /* petit bloc de liens avec slide*/
+	padding:5px;
+	width: 150px;
+	background-color: rgb(218, 217, 217);
+	border-width: 1px 2px 2px 1px;
+}
+
+#premier, #deuxieme, #troisieme, #quatrieme, #cinquieme{
+	width: 150px;/* id des boutons qui provoque le slide*/
+	position: relative;
+	left: 6px;
+	text-shadow: 1px 1px 10px black;
+}
+
+
+
+.bouton{
+	width: 150px;/* bouton href au site internet*/
+	margin: auto;
+}
+/* --------------------------------------------------------------------------------------------------------------------------*/
+.PremiereBox{
+	padding:5px;
+	width: 625px;
+	margin: 5px;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px 2px 2px 1px;
+	border-color: black black black black;
+}
+.DeuxiemeBox{
+	padding:5px;
+	width: 570px;
+	margin: 5px;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px 2px 2px 1px;
+	border-color: black black black black;
+}
+
+.BlocNote{
+	font-size: 0.9em;
+	width: 619px;
+}
+.BlocNote1{
+	font-size: 0.9em;
+	width: 555px;
+	height: 730px;
+}
+
+#prr2, #bloc-note, #bloc-note2, #bloc-note3{margin-left: 5px;}
+title{
+	color: red;
+}
+.groupe{
+	display: flex;
+}
