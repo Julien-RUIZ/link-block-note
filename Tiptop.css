@@ -32,13 +32,15 @@ background-color: rgb(197, 190, 190);
 	border-width: 1px 2px 2px 1px;
 }
 
-#premier, #deuxieme, #troisieme, #quatrieme, #cinquieme{
+#premier, #deuxieme, #troisieme, #quatrieme, #cinquieme, #ToutFermer{
 	width: 150px;/* id des boutons qui provoque le slide*/
 	position: relative;
 	left: 6px;
 	text-shadow: 1px 1px 10px black;
 }
-
+#ToutFermer{
+	color: blue;
+}
 
 
 .bouton{

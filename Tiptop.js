@@ -12,6 +12,16 @@ $("#Bnote1").hide();
 $("#Bnote2").hide();
 $("#Bnote3").hide();
 
+$("#ToutFermer").on({	mouseenter:function(){$("#premier").css("color","red");},
+					mouseleave:function(){$("#premier").css("color","black");},
+					click:function(){
+						$("#partie-1").slideUp();
+						$("#partie-2").slideUp();
+						$("#partie-3").slideUp();
+						$("#partie-4").slideUp();
+						$("#partie-5").slideUp();
+}	})
+
 $("#premier").on({	mouseenter:function(){$("#premier").css("color","red");},
 					mouseleave:function(){$("#premier").css("color","black");},
 					click:function(){$("#partie-1").slideToggle(500);}	})
