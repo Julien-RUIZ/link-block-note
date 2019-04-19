@@ -71,6 +71,8 @@ background-color: rgb(197, 190, 190);
 	font-size: 0.9em;
 	width: 555px;
 	height: 730px;
+	margin-left: 5px;
+	margin-top: 5px;
 }
 
 #prr2, #bloc-note, #bloc-note2, #bloc-note3{margin-left: 5px;}
