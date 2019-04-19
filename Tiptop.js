@@ -12,6 +12,7 @@ $("#Bnote1").hide();
 $("#Bnote2").hide();
 $("#Bnote3").hide();
 
+// Je fais en sorte de refermer toutes les parties ouvertes
 $("#ToutFermer").on({	mouseenter:function(){$("#premier").css("color","red");},
 					mouseleave:function(){$("#premier").css("color","black");},
 					click:function(){
@@ -21,7 +22,8 @@ $("#ToutFermer").on({	mouseenter:function(){$("#premier").css("color","red");},
 						$("#partie-4").slideUp();
 						$("#partie-5").slideUp();
 }	})
-
+//--------------------------------------------------------------------------------
+//	-----------Partie qui va gérer l'ouverture est fermeture des parties
 $("#premier").on({	mouseenter:function(){$("#premier").css("color","red");},
 					mouseleave:function(){$("#premier").css("color","black");},
 					click:function(){$("#partie-1").slideToggle(500);}	})
@@ -42,8 +44,8 @@ $("#cinquieme").on({	mouseenter:function(){$("#cinquieme").css("color","red");},
 					mouseleave:function(){$("#cinquieme").css("color","black");},
 					click:function(){$("#partie-5").slideToggle(500);}	})
 //---------------------------------------------------------------------------------
-
-$("#prr1").click(function(){
+//-----------Gestion des bloc notes
+	$("#prr1").click(function(){
 		$("#text1").slideToggle(1000);
 	$("#Bnote1").hide(1000);})
 
